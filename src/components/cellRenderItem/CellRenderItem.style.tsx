@@ -3,7 +3,7 @@ import { Colors } from '../../constants/colors'
 
 const {width} = Dimensions.get("screen")
 
-export const CityRenderItemStyle = StyleSheet.create({
+export const CellRenderItemStyle = StyleSheet.create({
    cellWrapper: {
        width: width * .97,
        height: 50,

@@ -33,8 +33,8 @@ const PinInput: FC<PinInputInterface> = ({ pin = "", setPin = () => {} }) => {
     return (
         <TextInput
             value={pin} onChangeText={setPin}
-            textContentType={"password"} autoFocus={focus} maxLength={4} multiline={false}
-            keyboardType={"number-pad"} keyboardAppearance={"default"}
+            textContentType={"password"}  maxLength={4} multiline={false}
+            keyboardAppearance={"default"}
             placeholderTextColor={'white'} style={PinInputStyle.input}  />
     )
 }

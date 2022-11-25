@@ -15,7 +15,7 @@ export const ConfirmStyle = StyleSheet.create({
     },
     bottomSheetContainer: {
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         backgroundColor: Colors.Black
     },
 

@@ -5,5 +5,6 @@ export enum Colors  {
     White = "#fff",
     Orange = "#FE7728",
     DarkerBlue = "#1A2435",
-    Gray = "rgba(255,255,255,.2)"
+    Gray = "rgba(255,255,255,.2)",
+    DarkGray = "rgba(0,0,0,.1)"
 }

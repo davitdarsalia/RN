@@ -9,6 +9,7 @@ export type AuthScreenList = {
     AuthScreen: undefined
     ConfirmScreen: undefined
     SelectCityScreen: undefined
+    SelectLanguage: undefined
 }
 
 // RootStack
